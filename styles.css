@@ -1,0 +1,55 @@
+body {
+	background-color: #e5e5e5;
+	font-family: Arial, sans-serif;	
+}
+
+a {
+	color: rgb(182,89,75);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: rgb(182,89,75);
+	color: white;
+}
+
+figcaption {
+	margin: 10px 0;
+	font-size: small;
+	text-align: center;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+img {
+	display: block;
+}
+
+#image {
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 15px;
+}
+
+li {
+	padding: 5px 0;
+}
+
+li:first-of-type {
+	padding-top: 0;
+}
+
+li > span {
+	font-weight: bold;
+}
+
+#tribute-info {
+	margin: 0 auto;
+	padding: 0;
+	width: 650px;
+	min-width: 300px;
+	height: auto;
+}
